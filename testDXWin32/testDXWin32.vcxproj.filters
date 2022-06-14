@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>fbba7c91-648a-4f63-80c0-f3d72f5b83c8</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f24f4a61-257e-418b-94f0-f4f03fc88d8c</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4b70a52c-5be6-4a80-9e54-1d7964c7a743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{70f25d25-1571-4853-88f2-64c1e439e3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3bc746dc-b794-4f73-a2b8-69aceaa13ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object">
+      <UniqueIdentifier>{21bff42a-32fb-4d88-8e41-f7b6ee933be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object\Component">
+      <UniqueIdentifier>{18de67da-ba24-4c70-b07e-e1f68d114b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{3a4c5ad6-c403-4380-aa32-0c0b1ed570c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkServices.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkData.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGame.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Text2D.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkController.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IController.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollider.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Game Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntity.cpp" />
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Holder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkServices.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientGame.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJ_Loader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Text2D.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="IController.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkController.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ICollider.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Game Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader.fx">
+      <Filter>Assets</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
